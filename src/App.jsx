@@ -6,7 +6,7 @@ import Courses from './components/Courses'
 import Cart from './components/Cart'
 import Contact from './components/Contact'
 import { Route, Routes , Navigate} from 'react-router-dom'
-import Auth from './pages/auth'
+import Auth from './pages/Auth'
 
 function PrivateRoute({children}){
   const {token} = useAuth ()
